@@ -1,72 +1,77 @@
 body{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    color: white;
-    background-color: rgb(185, 185, 204);
+  box-sizing: border-box;
+  margin: 0;
+  width:100%;
+  overflow-x:hidden
+ 
+
   
 }
 
-a{
-    list-style: none;
-    text-decoration: none;
-    color:rgb(2, 2, 34);
-    font-weight: 600;
-    
-    
-}
-li{
-  list-style: none;
-  line-height: 40px;
-}
+.page{
+  display: flex;
+  flex-direction: row;
+  width:100vw;
+  overflow-x:hidden
 
-.routes .pages{
-    margin-top: 30px;
-}
-
-.sidebar-header{
-    text-align: center;
-    padding-top: 0;
 }
 
 .sidebar{
-    text-transform: capitalize;
-    text-decoration: none;
-    text-align: left;
-    background-color: rgb(148, 148, 212);
-    width: 300px;
-    list-style: none;
-    height: 100vh;
-    display: fixed;
-    padding-right: 0px 20px;
-    
+ top: 0;
+ position: absolute;
+ width: 250px;
+ height: 100vh;
+ margin: 0;
+ text-transform: capitaliZe;
+ background-color: aqua;
 
-
-    
 }
 
-.CloseBtn{
-    position: relative;
-    top: 0;
-    left:110%;
-    
+.see{
+  display: fixed;
+  transition: ease all 0.2s;
+
 }
 
-.notActive{
-    transform: translateX(-240px);
+.none{
+  transition: ease all 0.2s;
+  transform: translateX(-250px);
 }
 
+.sidebar #btn{
+  position: absolute;
+  left: 200px;
+  top: 0;
+}
 
-.navbar{
-    background-color: red;
-    width: 100%;
-    height: 30%;
-  
+#button{
+  margin-right: 100px;
+}
+img{
+  height: 50px;
+  width: 50px;
+
 }
 
 .container{
-   display: flex;
-   flex-direction: row; 
- 
-   
+  left: 250px;
+  position: absolute;
+  background-color: red;
+  height: 100vh;
+  width: ;
+
 }
+
+
+
+.home text{
+  margin-left: 20px;
+}
+
+
+.notActive{
+  transform: translateX(-260px);
+  margin: 0;
+  
+}
+

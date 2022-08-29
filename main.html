@@ -5,43 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <div class="container">
+ 
+    <div class="page">
+        <div class="sidebar see">
        
-        <section class="sidebar">
-            <button onclick="clicked()" class="CloseBtn">X</button>
-            <div class="sidebar-header">
-             <h1>THEO TV</h1>
+            <div class="Logo-content">
+                <i class=" logo bx bxl-c-plus-plus"></i>
+                <div class="logo-name">Feits</div>
+                <button id="btn">just work</button>  
             </div>
-            <ul class="routes" >
-             <li class="pages"><a href=""> WELCOME PAGE</a></li>
-             <ul class="sub-routes">
-                 <li class="page"><a href="">ANIMES</a></li>
-                 <li class="page"><a href="">SERMONS</a></li>
-             </ul>
-             <li class="pages"><a href=""> SERIES</a></li>
-             <li class="pages"><a href="">FEEDBACK SECTION</a></li>
-             <li class="pages"><a href="">NEW RELEASES</a></li>
-             <li class="pages"><a href=""> GOSPEL MOVIES</a></li>
-             <li class="pages"><a href=""> CONTACT SECTION</a></li>
+           
+            
+            
+            <ul class="menu-list">
+                <li>
+                   <div class="search">
+                    <i class="bx bx-search" id="search-button"></i>
+                    <input type="text" id="search" placeholder="Search...."/>
+                   </div>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-grid-alt"></i>
+                        <span class="links_menu">Dashboard</span>
+                    </a>
+                    <span class="tooltip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-user"></i>
+                        <span class="links_menu">User</span>
+                    </a>
+                    <span class="tooltip">User</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-chat"></i>
+                        <span class="links_menu">Messages</span>
+                    </a>
+                    <span class="tooltip">Messages</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-pie-chart-alt-4"></i>
+                        <span class="links_menu">Analytics</span>
+                    </a>
+                    <span class="tooltip">Analytics</span>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <i class="bx bx-File"></i>
+                        <span class="links_menu">File Manager</span>
+                    </a>
+                    <span class="tooltip">Files</span>
+                </li>
+    
+                <li>
+                    <a href="#">
+                        <i class="bx bx-cart-alt"></i>
+                        <span class="links_menu">Order</span>
+                    </a>
+                    <span class="tooltip">Order</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-grid-heart"></i>
+                        <span class="links_menu">Saved</span>
+                    </a>
+                    <span class="tooltip">Saved</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="bx bx-cog"></i>
+                        <span class="links_menu">Settings</span>
+                    </a>
+                    <span class="tooltip">Settings</span>
+                </li>
             </ul>
-         </section>
-
-         <nav class=" navbar ">
-            <button onclick="doubleClicked()" class="OpenBtn">O</button>
-            <div>
-                <div class="brandName">
-                    <h1>LOGO</h1>
-                </div>
-                <div class="options">
-                    options
+            <div class="profile-content">
+                <div class="profile">
+                    <div class="profile_details">
+                        <img src="./lady.jpg" alt="">
+                        <div class="name-job">
+                            <div class="name"> JOHN DEV</div>
+                            <div class="job">Web Designer</div>
+                        </div>
+                    </div>
+                    <i class="bx bx-log-out" id="log-out"></i>
                 </div>
             </div>
-        </nav>
-        
+        </div>
+    
+       <div class="container">
+          <div class="home">
+            <button id="button">working</button>
+            <div class="text">
+               Home
+            </div>
+            <div class="text">
+                Homeshjnasad
+                dasdvhcssva
+                adhavsjka
+                adasfvashd
+                adcagvbjh
+                advahdjka
+             </div>
+     
+    
+          </div>
+       </div>
     </div>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
